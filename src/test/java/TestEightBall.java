@@ -15,4 +15,10 @@ public class TestEightBall {
     public void hasThreeEntries() {
         assertEquals(3, eightBall.getWordCount());
     }
+
+    @Test
+    public void canAddEntry() {
+        eightBall.addEntry("Leave me be.");
+        assertEquals(4, eightBall.getWordCount());
+    }
 }

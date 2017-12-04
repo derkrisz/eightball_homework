@@ -13,4 +13,9 @@ public class EightBall {
     public int getWordCount() {
         return this.answers.size();
     }
+
+
+    public void addEntry(String answer) {
+        this.answers.add(answer);
+    }
 }
