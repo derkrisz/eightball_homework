@@ -10,16 +10,16 @@ public class EightBall {
         answers.add("You suck.");
     }
 
-    public int getWordCount() {
+    public int getAnswerCount() {
         return this.answers.size();
     }
 
 
-    public void addEntry(String answer) {
+    public void addAnswer(String answer) {
         this.answers.add(answer);
     }
 
-    public void removeEntry(String answer) {
+    public void removeAnswer(String answer) {
         this.answers.remove(answer);
     }
 }

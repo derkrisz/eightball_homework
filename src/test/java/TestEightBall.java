@@ -12,19 +12,19 @@ public class TestEightBall {
     }
 
     @Test
-    public void hasThreeEntries() {
-        assertEquals(3, eightBall.getWordCount());
+    public void hasThreeAnswers() {
+        assertEquals(3, eightBall.getAnswerCount());
     }
 
     @Test
-    public void canAddEntry() {
-        eightBall.addEntry("Leave me be.");
-        assertEquals(4, eightBall.getWordCount());
+    public void canAddAnswer() {
+        eightBall.addAnswer("Leave me be.");
+        assertEquals(4, eightBall.getAnswerCount());
     }
 
     @Test
-    public void canRemoveEntry() {
-        eightBall.removeEntry("Piss off.");
-        assertEquals(2, eightBall.getWordCount());
+    public void canRemoveAnswer() {
+        eightBall.removeAnswer("Piss off.");
+        assertEquals(2, eightBall.getAnswerCount());
     }
 }
