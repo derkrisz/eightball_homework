@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 public class EightBall {
-    ArrayList<String> sentences;
+    ArrayList<String> answers;
 
     public EightBall() {
-        this.sentences = new ArrayList<>();
+        this.answers = new ArrayList<>();
     }
 
     public int getWordCount() {
-        return this.sentences.size();
+        return this.answers.size();
     }
 }
