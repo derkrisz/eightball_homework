@@ -12,7 +12,7 @@ public class TestEightBall {
     }
 
     @Test
-    public void hasNoEntries() {
-        assertEquals(0, eightBall.getWordCount());
+    public void hasThreeEntries() {
+        assertEquals(3, eightBall.getWordCount());
     }
 }
