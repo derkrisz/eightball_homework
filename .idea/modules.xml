@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomeWorkEightBall.iml" filepath="$PROJECT_DIR$/.idea/modules/HomeWorkEightBall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomeWorkEightBall_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HomeWorkEightBall_main.iml" group="HomeWorkEightBall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HomeWorkEightBall_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HomeWorkEightBall_test.iml" group="HomeWorkEightBall" />
+    </modules>
+  </component>
+</project>
