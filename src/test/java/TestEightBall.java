@@ -21,4 +21,10 @@ public class TestEightBall {
         eightBall.addEntry("Leave me be.");
         assertEquals(4, eightBall.getWordCount());
     }
+
+    @Test
+    public void canRemoveEntry() {
+        eightBall.removeEntry("Piss off.");
+        assertEquals(2, eightBall.getWordCount());
+    }
 }
