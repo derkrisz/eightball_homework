@@ -5,9 +5,9 @@ public class EightBall {
 
     public EightBall() {
         this.answers = new ArrayList<>();
-        answers.add("blah");
-        answers.add("blah2");
-        answers.add("blah3");
+        answers.add("None of your business.");
+        answers.add("Piss off.");
+        answers.add("You suck.");
     }
 
     public int getWordCount() {
