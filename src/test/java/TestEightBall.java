@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class TestEightBall {
     EightBall eightBall;
@@ -26,5 +27,16 @@ public class TestEightBall {
     public void canRemoveAnswer() {
         eightBall.removeAnswer("Piss off.");
         assertEquals(2, eightBall.getAnswerCount());
+    }
+
+    @Test
+    public void returnFirstAnswer() {
+        assertEquals("None of your business.", eightBall.firstAnswer());
+    }
+
+    @Test
+    public void answersShuffle() {
+        eightBall.shuffleAnswers();
+        assertNotNull(eightBall.firstAnswer());
     }
 }

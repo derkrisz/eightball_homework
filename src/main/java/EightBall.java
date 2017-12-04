@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class EightBall {
     ArrayList<String> answers;
@@ -21,5 +22,14 @@ public class EightBall {
 
     public void removeAnswer(String answer) {
         this.answers.remove(answer);
+    }
+
+    public String firstAnswer() {
+        return answers.get(0);
+    }
+
+    public String shuffleAnswers() {
+        Collections.shuffle(answers);
+         return answers.get(0);
     }
 }
